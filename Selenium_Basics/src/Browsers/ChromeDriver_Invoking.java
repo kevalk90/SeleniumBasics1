@@ -11,6 +11,8 @@ public class ChromeDriver_Invoking {
 		WebDriver driver= new ChromeDriver();
 		
 	    driver.get("http://google.com");
+	    System.out.println(driver.getTitle());
+	    driver.quit();
 	    
 		
 
